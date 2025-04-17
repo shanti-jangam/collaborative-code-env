@@ -1,10 +1,11 @@
-# DevSync  
-                                                                                 
-A real-time collaborative coding platform that I built to make team development seamless and efficient! 
+<div align="center">
 
+# DevSync
 
-## Check It Out Live!
-[Try DevSync](https://collaborative-code-env-frontend.onrender.com/) 
+### [Try DevSync](https://collaborative-code-env-frontend.onrender.com/)
+
+A real-time collaborative coding platform that I built to make team development seamless and efficient! 🚀
+</div>
 
 
 <img width="1436" alt="DevSync Screenshot" src="https://github.com/user-attachments/assets/e85599fd-40aa-440f-96f4-74785de5aeeb" />
