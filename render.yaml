@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: devsync-backend
+    env: node
+    buildCommand: cd backend && npm install && npm run build
+    startCommand: cd backend && npm start
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_URL
+        fromService:
+          name: devsync-frontend
+          type: static
+          property: url
+      - key: STORAGE_TYPE
+        value: "json"
+    disk:
+      name: devsync-data
+      mountPath: /app/data
+      sizeGB: 1
+    healthCheckPath: /health
+    autoDeploy: true
+
+  - type: static
+    name: devsync-frontend
+    buildCommand: cd frontend && npm install && npm run build
+    publishDir: frontend/build
+    envVars:
+      - key: REACT_APP_API_URL
+        fromService:
+          name: devsync-backend
+          type: web
+          property: url
+      - key: REACT_APP_WS_URL
+        fromService:
+          name: devsync-backend
+          type: web
+          property: url
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate 
