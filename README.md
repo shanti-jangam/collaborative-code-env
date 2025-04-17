@@ -8,7 +8,8 @@ A real-time collaborative coding platform that I built to make team development 
 </div>
 
 
-<img width="1436" alt="DevSync Screenshot" src="https://github.com/user-attachments/assets/e85599fd-40aa-440f-96f4-74785de5aeeb" />
+<img width="1440" alt="Screenshot 2025-04-17 at 3 10 29 AM" src="https://github.com/user-attachments/assets/bf40746d-70cc-4cd8-acf8-6a203871cdf7" />
+
 
 ## What is DevSync?
 
