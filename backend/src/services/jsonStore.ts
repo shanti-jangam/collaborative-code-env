@@ -2,8 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import { User, Message, Room } from '../types';
 
-// Define the data file path
-const DATA_DIR = path.join(__dirname, '../../data');
+// Define the data file path inside the app directory (not requiring a mounted disk)
+// This will use temporary storage in the container
+const DATA_DIR = path.join(__dirname, '../tmp');
 const DATA_FILE = path.join(DATA_DIR, 'rooms.json');
 
 // Define the data structure
