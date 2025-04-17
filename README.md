@@ -1,4 +1,5 @@
 # Real-time Collaborative Code Editor
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://collaborative-code-env-frontend.onrender.com/)
 <img width="1436" alt="Screenshot 2025-04-16 at 9 48 07 PM" src="https://github.com/user-attachments/assets/e85599fd-40aa-440f-96f4-74785de5aeeb" />
 
 
