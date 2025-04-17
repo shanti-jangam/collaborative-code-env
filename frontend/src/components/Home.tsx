@@ -414,7 +414,25 @@ const Home: React.FC = () => {
             color: 'rgba(255, 255, 255, 0.7)',
             textShadow: '0 0 10px rgba(0, 255, 159, 0.3)',
           }}>
-            DevSync — Where Code Comes Together
+            DevSync — Where Code Comes Together • Built by{' '}
+            <Button
+              href="https://github.com/shanti-jangam"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                color: '#00ff9f',
+                p: 0,
+                minWidth: 'auto',
+                textTransform: 'none',
+                fontWeight: 'normal',
+                '&:hover': {
+                  backgroundColor: 'transparent',
+                  textDecoration: 'underline',
+                },
+              }}
+            >
+              Shanti Jangam
+            </Button>
           </Typography>
         </Box>
       </Box>
