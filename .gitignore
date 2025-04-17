@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+.env
+/build
+/frontend/build
+/backend/dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/backend/.env
+/frontend/.env
+node_modules/
+.DS_Store
+.env
+*/build/
+*/dist/
