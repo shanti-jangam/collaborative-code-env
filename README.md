@@ -1,4 +1,6 @@
 # Real-time Collaborative Code Editor
+<img width="1436" alt="Screenshot 2025-04-16 at 9 48 07 PM" src="https://github.com/user-attachments/assets/e85599fd-40aa-440f-96f4-74785de5aeeb" />
+
 
 A full-stack application that allows multiple users to collaborate on code in real-time, similar to Google Docs but for code editing.
 
