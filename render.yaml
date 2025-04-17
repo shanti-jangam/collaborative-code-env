@@ -10,10 +10,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: CLIENT_URL
-        fromService:
-          name: devsync-frontend
-          type: web
-          property: url
+        value: https://devsync-frontend.onrender.com
       - key: STORAGE_TYPE
         value: "json"
     disk:
@@ -30,15 +27,9 @@ services:
     staticPublishPath: ./frontend/build
     envVars:
       - key: REACT_APP_API_URL
-        fromService:
-          name: devsync-backend
-          type: web
-          property: url
+        value: https://devsync-backend.onrender.com
       - key: REACT_APP_WS_URL
-        fromService:
-          name: devsync-backend
-          type: web
-          property: url
+        value: https://devsync-backend.onrender.com
     headers:
       - path: /*
         name: Cache-Control
