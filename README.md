@@ -4,7 +4,7 @@
 
 ### [Try DevSync](https://collaborative-code-env-frontend.onrender.com/)
 
-A real-time collaborative coding platform that I built to make team development seamless and efficient! 🚀
+A real-time collaborative coding platform that I built to make team development seamless and efficient! 
 </div>
 
 
